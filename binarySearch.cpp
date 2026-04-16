@@ -75,19 +75,18 @@ void binarySearch()
         {
             int mid = (low + high) / 2;
 
-            if (x == element[mid])
+           if (element[mid] == x)
             {
-                cout << "\nElemen " << x << " ditemukan pada indeks ke-" << mid + 1 << ".\n";
-                break;
+                cout << "\nElemen ditemukan pada indeks ke-" << mid + 1 << endl;
+                return;
             }
-            else if (x < element[mid])
+            if (x < element[mid])
             {
                 high = mid - 1;
             }
-            else
+            if (x > element[mid])
             {
                 low = mid + 1;
             }
-        }
     }
 }

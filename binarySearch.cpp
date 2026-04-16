@@ -26,7 +26,7 @@ void input()
 
 
 
-    void bubbleSortArray()
+void bubbleSortArray()
     {
         int pass = 1;
         do
@@ -43,7 +43,7 @@ void input()
     }
 
 
-    void display()
+void display()
     {
         cout << "\n========================================\n";
         cout << "Elemen pada array: (asc)\n";
@@ -58,3 +58,17 @@ void input()
         }
         cout << endl;
     }
+
+
+void binarySearch()
+{
+    char ulang;
+    do
+    {
+        cout << "\nMasukan elemen yang ingin dicari: ";
+        cin >> x;
+
+        int low = 0;
+        int high = nPanjang - 1;
+    }
+}

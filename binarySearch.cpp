@@ -6,7 +6,7 @@ int nPanjang;
 int x;
 
 
-
+//
 void input()
 
 

@@ -89,5 +89,14 @@ void binarySearch()
                 low = mid + 1;
             }
         } while (low <= high);
-    }
+
+        if (low > high)
+        {
+            cout << "\nElemen tidak ditemukan dalam array.\n";
+
+        }
+        cout << "\nApakah Anda ingin mencari elemen lain? (y/n): ";
+        cin >> ulang;
+
+    } while (ulang == 'y' || ulang == 'Y');
 }

@@ -108,5 +108,4 @@ int main()
     display();
     binarySearch();
 
-    return 0;
 }

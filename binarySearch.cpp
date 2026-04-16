@@ -1,0 +1,60 @@
+void input()
+
+
+    while (true)
+    {
+        cout << "Masukan banyak nya elemen pada array (maksimal 10): ";\
+        cin >> nPanjang;
+
+
+        if (nPanjang > 10)
+        {
+            break;
+        }
+        else
+        {
+            cout << "\n [!] Masukan tidak valid, silahkan coba lagi.\n\n";
+        }
+    }
+
+    cout << "\nMasukan elemen pada array: \n";
+    for (int i = 0; i < nPanjang; i++)
+    {
+        cout << "Elemen ke-" << i + 1 << ": ";
+        cin >> element[i];
+    }
+
+
+
+    void bubbleSortArray()
+    {
+        int pass = 1;
+        do
+        {
+            for (int j = 0; j < nPanjang - pass; j++)
+            {
+                if (element[j] > element[j + 1])
+                {
+                    int temp
+                }
+            }
+            pass++;
+        } while (pass < nPanjang - 1);
+    }
+
+
+    void display()
+    {
+        cout << "\n========================================\n";
+        cout << "Elemen pada array: (asc)\n";
+        cout << "==========================================\n";
+        for (int j = 0; j < nPanjang; j++)
+        {
+            cout << element[j];
+             if (j < nPanjang - 1)
+            {
+                cout << ", ";
+            }
+        }
+        cout << endl;
+    }
